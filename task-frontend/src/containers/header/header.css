@@ -1,0 +1,27 @@
+.pf__Header-name {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+}
+.pf__Header-name h1 {
+  font-size: 10rem;
+}
+.pf__Header-name p {
+  font-size: 0.88rem;
+  letter-spacing: 0.15rem;
+  color: #a1a1a1df;
+  line-height: 2;
+}
+.pf__Header-name :first-child {
+  margin-left: 6rem;
+}
+.pf__Header-name :last-child {
+  align-self: flex-end;
+  margin-right: 6rem;
+}
+.pf__Header-scroll {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
